@@ -1,0 +1,10 @@
+version: '3'
+services:
+  lamp:
+    build: ./docker/development/lamp
+    volumes:
+      - ./dist:/app
+      - ./db:/var/lib/mysql
+    ports:
+      - "80:80"
+      - "3306:3306"

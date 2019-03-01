@@ -1,0 +1,18 @@
+# Remove this rule after you cloned the repository
+/dist/
+
+# Laravel ignored files and folders
+/dist/node_modules
+/dist/public/hot
+/dist/public/storage
+/dist/storage/*.key
+/dist/vendor
+/dist/.env
+/dist/.phpunit.result.cache
+/dist/Homestead.json
+/dist/Homestead.yaml
+/dist/npm-debug.log
+/dist/yarn-error.log
+
+# Docker volume folders
+db/
